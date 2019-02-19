@@ -6,7 +6,7 @@ body {
 }
 
 .wrap {
-  width: 70%;
+  max-width: 1024px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -69,9 +69,10 @@ ul {
 }
 
 .content_menu {
-  display: inline-block;
+  display: block;
   width: 20%;
   vertical-align: top;
+  float: left;
 }
 
 .nav_menu {
@@ -92,13 +93,14 @@ ul {
 }
 
 .contant_text {
-  display: inline-block;
+ /* display: inline-block;*/
   text-align: justify;
   width: 77%;
   color: #fff;
   font-size: 18px;
   padding: 10px;
   text-indent: 20px;
+  float: right;
 }
 
 .content {
